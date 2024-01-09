@@ -4,7 +4,7 @@ loaderVersion = "[43,)"
 license = "MIT"
 
 [[mods]]
-modId = "hexdummy"
+modId = "hexbionics"
 version = "${version}"
 displayName = "Dummy Hex Casting Addon"
 logoFile = "icon.png"
@@ -13,28 +13,28 @@ description = '''
 Describe me!
 '''
 
-[[dependencies.hexdummy]]
+[[dependencies.hexbionics]]
 modId = "forge"
 mandatory = true
 versionRange = "[43,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.hexdummy]]
+[[dependencies.hexbionics]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.19.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.hexdummy]]
+[[dependencies.hexbionics]]
 modId = "architectury"
 mandatory = true
 versionRange = "[6.5.85,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.hexdummy]]
+[[dependencies.hexbionics]]
 modId = "hexcasting"
 mandatory = true
 versionRange = "[0.10.3,)"

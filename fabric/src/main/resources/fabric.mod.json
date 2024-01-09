@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "hexdummy",
+  "id": "hexbionics",
   "version": "${version}",
   "name": "Dummy Hex Casting Addon",
   "description": "Please describe me!",
@@ -16,15 +16,15 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.hexdummy.fabric.HexDummyFabric"
+      "io.github.littlebroto1.hexbionics.fabric.HexBionicsFabric"
     ],
     "client": [
-      "net.hexdummy.fabric.HexDummyClientFabric"
+      "io.github.littlebroto1.hexbionics.fabric.HexBionicsClientFabric"
     ]
   },
   "mixins": [
-    "hexdummy-common.mixins.json",
-    "hexdummy.mixins.json"
+    "hexbionics-common.mixins.json",
+    "hexbionics.mixins.json"
   ],
   "depends": {
     "minecraft": ">=1.19.2",
