@@ -1,0 +1,26 @@
+{
+  "name": "hexbionics.entry.bionics_spells",
+  "category": "hexcasting:patterns/spells",
+  "icon": "minecraft:spruce_sign",
+  "sortnum": 0,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexbionics:congrats",
+      "anchor": "hexbionics:congrats",
+      "input": "entity",
+      "output": "",
+      "text": "hexbionics.page.bionics_spells.congrats"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexbionics:makeclone",
+      "anchor": "hexbionics:makeclone",
+      "input": "entity",
+      "output": "",
+      "text": "hexbionics.page.bionics_spells.makeclone"
+    }
+  ]
+}

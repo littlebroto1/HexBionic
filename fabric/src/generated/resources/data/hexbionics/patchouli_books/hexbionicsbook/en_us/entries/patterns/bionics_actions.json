@@ -1,0 +1,18 @@
+{
+  "name": "hexbionics.entry.bionics_actions",
+  "category": "hexcasting:patterns",
+  "icon": "minecraft:birch_sign",
+  "sortnum": 0,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexbionics:signum",
+      "anchor": "hexbionics:signum",
+      "input": "number",
+      "output": "number",
+      "text": "hexbionics.page.bionics_actions.signum"
+    }
+  ]
+}

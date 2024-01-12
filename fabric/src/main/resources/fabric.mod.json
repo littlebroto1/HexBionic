@@ -23,8 +23,8 @@
     ]
   },
   "mixins": [
-    "hexbionics-common.mixins.json",
-    "hexbionics.mixins.json"
+    "hexbionics.mixins.json",
+    "hexbionics-common.mixins.json"
   ],
   "depends": {
     "minecraft": ">=1.19.2",

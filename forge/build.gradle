@@ -36,6 +36,9 @@ dependencies {
     forge "net.minecraftforge:forge:${project.forgeVersion}"
     modApi "dev.architectury:architectury-forge:${project.architecturyVersion}"
 
+    // Geckolib
+    modImplementation "software.bernie.geckolib:geckolib-forge-${minecraftVersionMajor}:${geckolibVersion}"
+
     modImplementation("at.petra-k.hexcasting:hexcasting-forge-${project.minecraftVersion}:${project.hexcastingVersion}") {
         transitive = false
     }
